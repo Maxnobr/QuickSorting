@@ -15,8 +15,8 @@ public class Quicky {
 
 		Stopwatch stp = new Stopwatch();
 		int averageOf = 128;
-		int arraySize = 1024;
-		int num_of_tests = 4;
+		int arraySize = 512;
+		int num_of_tests = SortType.values().length;
 
 		long[][] runTimes = new long[num_of_tests][arraySize];
 		double[] bitterN = new double[arraySize];
