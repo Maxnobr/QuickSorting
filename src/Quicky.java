@@ -137,12 +137,12 @@ public class Quicky {
 		new SwingWrapper<>(chartC).displayChart();
 
 		// Save it
-		BitmapEncoder.saveBitmap(chartA, "./Sorting", BitmapEncoder.BitmapFormat.JPG);
-		BitmapEncoder.saveBitmap(chartB, "./BitterEnd", BitmapEncoder.BitmapFormat.JPG);
-		BitmapEncoder.saveBitmap(chartC, "./Hoaruto", BitmapEncoder.BitmapFormat.JPG);
+		BitmapEncoder.saveBitmap(chartA, "./data/Sorting", BitmapEncoder.BitmapFormat.JPG);
+		BitmapEncoder.saveBitmap(chartB, "./data/BitterEnd", BitmapEncoder.BitmapFormat.JPG);
+		BitmapEncoder.saveBitmap(chartC, "./data/Hoaruto", BitmapEncoder.BitmapFormat.JPG);
 
 		// Save to csv
-		FileWriter csvWriter = new FileWriter("quickSortTimes.csv");
+		FileWriter csvWriter = new FileWriter("/data/quickSortTimes.csv");
 
 		//header
 		csvWriter.append("Array length,QuickSort,MeanOf3,BitterEnd,Hoare,BestBitterEndNumber\n");
