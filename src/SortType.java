@@ -1,4 +1,4 @@
 
 public enum SortType {
-    QUICK, MEDIAN, BITTEREND, HOARE, LOMUTO
+    QUICK, MEDIAN, BITTEREND, HOARE
 }
